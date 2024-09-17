@@ -1,0 +1,43 @@
+body {
+    font-family: Bahnschrift, monospace;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-family: Bahnschrift, monospace;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Bahnschrift, monospace;
+    color: #007bff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
